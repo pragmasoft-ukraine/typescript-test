@@ -1,0 +1,22 @@
+{
+  "name": "typescript-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./build/index.js",
+    "build": "tsc"
+  },
+  "author": "Dmytro V. Zemnytskyi <pragmasoft@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jose": "^3.5.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "@types/jest": "^26.0.19"
+  }
+}
