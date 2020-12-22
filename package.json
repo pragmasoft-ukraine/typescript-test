@@ -2,12 +2,11 @@
   "name": "typescript-test",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
   "scripts": {
     "test": "jest",
-    "start": "node api/build/module/dep.js",
+    "start": "node api/bin/module/dep.js",
     "build": "tsc -p api",
-    "clean": "rimraf api/build"
+    "clean": "rimraf api/bin"
   },
   "author": "Dmytro V. Zemnytskyi <pragmasoft@gmail.com>",
   "license": "ISC",
